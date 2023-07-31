@@ -6,7 +6,7 @@ fig, ax = plt.subplots()
 ax.pie(sizes, labels=labels)
 
 
-explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
+explode = (0, 0.1, 1, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
 fig, ax = plt.subplots()
 ax.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
