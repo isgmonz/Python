@@ -17,7 +17,7 @@ wedges, *_ = ax1.pie(overall_ratios, autopct='%1.1f%%', startangle=angle,
 
 # bar chart parameters
 age_ratios = [.33, .54, .07, .06]
-age_labels = ['Under 35', '35-49', '50-65', 'Over 65']
+age_labels = ['Under 35', '35-49', '50-75', 'Over 75']
 bottom = 1
 width = .2
 
