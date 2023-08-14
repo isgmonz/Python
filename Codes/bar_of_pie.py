@@ -7,7 +7,7 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9, 5))
 fig.subplots_adjust(wspace=0)
 
 # pie chart parameters
-overall_ratios = [.27, .56, .17]
+overall_ratios = [.27, .56, .20]
 labels = ['Approve', 'Disapprove', 'Undecided']
 explode = [0.1, 0, 0]
 # rotate so that first wedge is split by the x-axis
